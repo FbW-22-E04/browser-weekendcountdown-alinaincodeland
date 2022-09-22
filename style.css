@@ -1,0 +1,21 @@
+body {
+    width: 100%;
+    align-content: center;
+    padding: 80px;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+input {
+    border: 2px solid grey;
+    border-radius: 4px;
+
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
