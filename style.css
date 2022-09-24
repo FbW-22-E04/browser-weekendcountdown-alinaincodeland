@@ -1,21 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
 body {
     width: 100%;
     align-content: center;
     padding: 80px;
-    display: inline-block;
     margin: 0px auto;
-    text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 input {
     border: 2px solid grey;
     border-radius: 4px;
+    border-color: gr;
 
 }
 
 input:focus {
     outline: none !important;
-    border-color: #719ECE;
+    border-color: cyan;
     box-shadow: 0 0 10px #719ECE;
 }
